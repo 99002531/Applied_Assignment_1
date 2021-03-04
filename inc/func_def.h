@@ -25,7 +25,7 @@ box_t* create_an_array(const size_t num_of_boxes);
 *
 *@return	signifying successfull execution of function
 */
-box_t* add_a_box(box_t* head,box_t data);
+status_t add_box_end(box_t* box_ptr, const size_t array_size,const box_t *new_box);
 
 /**
 *@brief		display_all
