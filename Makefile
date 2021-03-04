@@ -1,7 +1,8 @@
 PROJECT_NAME=AppliedC_array_box
 
 SRC= main.c\
-src/create_an_array.c
+src/create_an_array.c\
+src/add_box_end.c
 
 
 
