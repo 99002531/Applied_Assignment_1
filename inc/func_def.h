@@ -48,7 +48,7 @@ status_t display_all(const box_t *box_array,const size_t array_size);
 *
 *@return	number of nodes having same colour
 */
-int count_color(box_t* head,char* color);
+__uint16_t count_boxes_with_color(const box_t *box_ptr,const size_t array_size,color_t color);
 
 /**
 *@brief         find_box_id

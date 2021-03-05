@@ -48,6 +48,9 @@ box_ptr = create_an_array(ARRAY_SIZE);
   
 display_all(box_ptr,ARRAY_SIZE);
 
+printf("Number of boxes with red color = %d\n",count_boxes_with_color(box_ptr,ARRAY_SIZE,RED));
+printf("Number of boxes with green color = %d\n",count_boxes_with_color(box_ptr,ARRAY_SIZE,GREEN));
+printf("Number of boxes with blue color = %d\n",count_boxes_with_color(box_ptr,ARRAY_SIZE,BLUE));
 
 return 0;
 
