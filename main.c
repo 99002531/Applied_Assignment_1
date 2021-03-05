@@ -2,7 +2,7 @@
 
 #include "func_def.h"
 
-#define ARRAY_SIZE  3
+#define ARRAY_SIZE  4
 
 int main()
 {
@@ -41,12 +41,12 @@ box_t *box_ptr=NULL;
 
 
 box_ptr = create_an_array(ARRAY_SIZE);
-  printf("%d",add_box_end(box_ptr, ARRAY_SIZE, &box1));
-  printf("%d",add_box_end(box_ptr, ARRAY_SIZE, &box2));
-  printf("%d",add_box_end(box_ptr, ARRAY_SIZE, &box3));
-  printf("%d",add_box_end(box_ptr, ARRAY_SIZE, &box4));
+  printf("%d\n",add_box_end(box_ptr, ARRAY_SIZE, &box1));
+  printf("%d\n",add_box_end(box_ptr, ARRAY_SIZE, &box2));
+  printf("%d\n",add_box_end(box_ptr, ARRAY_SIZE, &box3));
+  printf("%d\n",add_box_end(box_ptr, ARRAY_SIZE, &box4));
   
-
+display_all(box_ptr,ARRAY_SIZE);
 
 
 return 0;

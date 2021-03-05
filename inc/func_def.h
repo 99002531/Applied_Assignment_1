@@ -36,7 +36,7 @@ status_t add_box_end(box_t* box_ptr, const size_t array_size,const box_t *new_bo
 *
 *@return	Total number of nodes
 */
-int display_all(box_t* head);
+status_t display_all(const box_t *box_array,const size_t array_size);
 
 /**
 *@brief		count_color

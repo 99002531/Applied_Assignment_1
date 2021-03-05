@@ -27,8 +27,8 @@ typedef enum status_t
 	
 typedef enum color_t	{
 	    RED = 0,	 	/** Colour Code for RED	  */
-	    BLUE, 		/** Colour Code for BLUE  */
-	    GREEN 		/** Colour Code for GREEN */
+	    GREEN,		/** Colour Code for GREEN */
+	    BLUE 		/** Colour Code for BLUE */
 	} color_t;
 
 
